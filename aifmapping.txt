@@ -1,0 +1,796 @@
+{
+   "customer": {
+      "c_nextServiceRouteDay": {
+         "column": "O_GL_AU_DD", 
+         "table": "Customer"
+      }, 
+      "c_nextServedDateOfAutoReorder": {
+         "column": "F_CUS_AUT_RORD_NXT_SVC", 
+         "table": "Customer"
+      }, 
+      "c_prefTextDeliveryProgComm": {
+         "column": "F_CUS_TXT_DLD_DEL_CMM", 
+         "table": "Customer"
+      }, 
+      "c_prefEmailReminderProgComm": {
+         "column": "F_CUS_EMAIL_SHT_NFY_CMM", 
+         "table": "Customer"
+      }, 
+      "c_prefEmailServiceNotificationComm": {
+         "column": "F_CUS_EMAIL_SVC_NFY_CMM", 
+         "table": "Customer"
+      }, 
+      "c_customerType": {
+         "column": "C_CUS_TYP", 
+         "table": "Customer"
+      }, 
+      "LastName": {
+         "column": "N_CUS_LAST", 
+         "table": "Customer"
+      }, 
+      "c_prefTextDeliveryComm": {
+         "column": "F_CUS_TXT_DEL_CMM", 
+         "table": "Customer"
+      }, 
+      "c_lastSaleDate": {
+         "column": "D_CUS_SLE_LST", 
+         "table": "Customer"
+      }, 
+      "c_serviceableArea": {
+         "column": "F_CUS_ARE_SVC", 
+         "table": "Customer"
+      }, 
+      "c_depotNextService": {
+         "column": "O_GL_ACCT_UNT_4", 
+         "table": "Customer"
+      }, 
+      "c_prefTextReminderProgComm": {
+         "column": "F_CUS_SHT_NFY_TXT", 
+         "table": "Customer"
+      }, 
+      "c_cummulativeWebOrders": {
+         "column": "Q_CUS_ORD_STE", 
+         "table": "Customer"
+      }, 
+      "Email": {
+         "column": "T_CUS_EMAIL_ADR", 
+         "table": "Customer"
+      }, 
+      "c_prefEmailDeliveryProgComm": {
+         "column": "F_CUS_EMAIL_DLD_DEL_CMM", 
+         "table": "Customer"
+      }, 
+      "c_customerProgramStatus": {
+         "column": "C_CUS_PGM_STS", 
+         "table": "Customer"
+      }, 
+      "c_webLoginCummulative": {
+         "column": "Q_CUS_LGN", 
+         "table": "Customer"
+      }, 
+      "FirstName": {
+         "column": "N_CUS_FST", 
+         "table": "Customer"
+      }, 
+      "c_prefEmailPromotionalComm": {
+         "column": "F_CUS_EMAIL_PRM_CMM", 
+         "table": "Customer"
+      }, 
+      "c_customerEmailOrigin": {
+         "column": "C_CUS_EMAIL_ORGN", 
+         "table": "Customer"
+      }, 
+      "c_dateLastWebOrder": {
+         "column": "D_CUS_ORD_STE_LST", 
+         "table": "Customer"
+      }, 
+      "c_buyingGroupName": {
+         "column": "N_BGP", 
+         "table": "Customer"
+      }, 
+      "c_prefTextPromoComm": {
+         "column": "F_CUS_TXT_PRM_CMM", 
+         "table": "Customer"
+      }, 
+      "c_customerServiceEndDate": {
+         "column": "D_CUS_SVC_END_TIME", 
+         "table": "Customer"
+      }, 
+      "c_customerRouteServiceFrequency": {
+         "column": "Q_ARE_SVC_FRQ", 
+         "table": "Customer"
+      }, 
+      "c_autoOrderCustomer": {
+         "column": "F_CUS_AUT_RORD", 
+         "table": "Customer"
+      }, 
+      "c_dateRouteDownloaded": {
+         "column": "D_RTE_RUN_DLD", 
+         "table": "Customer"
+      }, 
+      "c_dateEmailUpdated": {
+         "column": "D_CUS_EMAIL_UPD", 
+         "table": "Customer"
+      }, 
+      "c_dateEmailAdded": {
+         "column": "D_CUS_EMAIL_ADD", 
+         "table": "Customer"
+      }, 
+      "c_firstSaleDate": {
+         "column": "D_CUS_SLE_FST", 
+         "table": "Customer"
+      }, 
+      "c_routeOpenNotService": {
+         "column": "F_CUS_RTE_OPEN", 
+         "table": "Customer"
+      }, 
+      "PrimaryPhone": {
+         "column": "O_PHN_NUM", 
+         "table": "Customer"
+      }, 
+      "SourceCustomerNumber": {
+         "column": "O_CUS", 
+         "table": "Customer"
+      }, 
+      "c_customerStopType": {
+         "column": "C_CUS_STP_TYP", 
+         "table": "Customer"
+      }, 
+      "c_dateLastPhoneOrder": {
+         "column": "D_CUS_ORD_PHN_LST", 
+         "table": "Customer"
+      }, 
+      "c_emailAddressInactive": {
+         "column": "D_CUS_EMAIL_INAC", 
+         "table": "Customer"
+      }, 
+      "c_cummulativePhoneOrders": {
+         "column": "Q_CUS_ORD_PHN", 
+         "table": "Customer"
+      }, 
+      "c_customerStatus": {
+         "column": "C_CUS_STS", 
+         "table": "Customer"
+      }, 
+      "c_divisionNextService": {
+         "column": "O_GL_ACCT_UNT_1", 
+         "table": "Customer"
+      }, 
+      "c_dateRouteNextRun": {
+         "column": "D_RTE_RUN_NXT", 
+         "table": "Customer"
+      }, 
+      "c_emailDeliverability": {
+         "column": "C_CUS_EMAIL_FAIL", 
+         "table": "Customer"
+      }, 
+      "c_dateCustomerInactivated": {
+         "column": "D_CUS_INAC", 
+         "table": "Customer"
+      }, 
+      "c_nextServiceDate": {
+         "column": "D_CUS_STP_NXT_SVC", 
+         "table": "Customer"
+      }, 
+      "c_customerNumber": {
+         "column": "O_CUS", 
+         "table": "Customer"
+      }, 
+      "c_buyingGroupNumber": {
+         "column": "O_BGP", 
+         "table": "Customer"
+      }, 
+      "c_customerServiceBeginDate": {
+         "column": "D_CUS_SVC_BGN_TME", 
+         "table": "Customer"
+      }, 
+      "c_employeeNumber": {
+         "column": "O_EMP", 
+         "table": "Customer"
+      }, 
+      "c_groupStop": {
+         "column": "F_CUS_GRP", 
+         "table": "Customer"
+      }, 
+      "c_leadAdded": {
+         "column": "D_LEAD_ADD", 
+         "table": "Customer"
+      }, 
+      "c_loyaltyProgramFlag": {
+         "column": "F_CUS_PNT_PGM", 
+         "table": "Customer"
+      }, 
+      "c_orderCutOffDate": {
+         "column": "D_ORD_CUT_OFF_TME", 
+         "table": "Customer"
+      }, 
+      "DoNotMail": {
+         "column": "F_CUS_MAIL", 
+         "table": "Customer"
+      }, 
+      "c_routeNextService": {
+         "column": "O_GL_ACCT_UNT_5", 
+         "table": "Customer"
+      }, 
+      "c_zoneNextService": {
+         "column": "O_GL_ACCT_UNT_2", 
+         "table": "Customer"
+      }
+   }, 
+   "product": {
+      "c_additionalProductDesc": {
+         "column": "ADTL_PRD_DESC", 
+         "table": "Product"
+      }, 
+      "c_productDescriptionAlternate": {
+         "column": "N_PRD_ITM", 
+         "table": "Product"
+      }, 
+      "ListPrice": {
+         "column": "PRICE", 
+         "table": "Product"
+      }, 
+      "Description": {
+         "column": "PROD_SHORT_DESC", 
+         "table": "Product"
+      }, 
+      "c_servingSize": {
+         "column": "SERVING_SIZE", 
+         "table": "Product"
+      }, 
+      "c_imageURLAlt2": {
+         "column": "PRD_IMG2", 
+         "table": "Product"
+      }, 
+      "SourceProductNumber": {
+         "column": "O_PRD", 
+         "table": "Product"
+      }, 
+      "c_validforsale": {
+         "column": "C_PRD_SLE_VLD", 
+         "table": "Product"
+      }, 
+      "c_imageURLAlt5": {
+         "column": "PRD_IMG6", 
+         "table": "Product"
+      }, 
+      "c_imageURLAlt4": {
+         "column": "PRD_IMG5", 
+         "table": "Product"
+      }, 
+      "c_imageURLAlt6": {
+         "column": "PRD_IMG7", 
+         "table": "Product"
+      }, 
+      "c_imageURLAlt1": {
+         "column": "PRD_IMG1", 
+         "table": "Product"
+      }, 
+      "Name": {
+         "column": "PROD_NAME", 
+         "table": "Product"
+      }, 
+      "c_imageURLAlt3": {
+         "column": "PRD_IMG3", 
+         "table": "Product"
+      }, 
+      "c_dateinactive": {
+         "column": "D_PRD_NOT_ACT", 
+         "table": "Product"
+      }, 
+      "ImageURL": {
+         "column": "PRD_IMG4", 
+         "table": "Product"
+      }, 
+      "c_shoppingGuideNumber": {
+         "column": "O_PRD_SPG", 
+         "table": "Product"
+      }, 
+      "c_noServings": {
+         "column": "NO_SERVINGS", 
+         "table": "Product"
+      }, 
+      "Availability#'yes'": {
+         "column": "O_PRD", 
+         "table": "Product"
+      }, 
+      "c_newProduct": {
+         "column": "NEW_PROD", 
+         "table": "Product"
+      }, 
+      "c_rating": {
+         "column": "RATING", 
+         "table": "Product"
+      }, 
+      "ProductURL": {
+         "column": "PRD_URL", 
+         "table": "Product"
+      }, 
+      "Size": {
+         "column": "PACKAGE_SIZE", 
+         "table": "Product"
+      }
+   }, 
+   "transaction": {
+      "c_customerStopPreorder": {
+         "column": "F_CUS_STP_POR", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_customerType": {
+         "column": "C_IVC_CUS_TYP", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_originalEstimatedArrivalDate": {
+         "column": "D_ORD_EST_ARV", 
+         "table": "OrderHeader"
+      }, 
+      "c_sourceInvoiceBatchNumber:DATE": {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_fundraiserAssociation": {
+         "column": "O_FNR_CMPN_ASSC", 
+         "table": "OrderHeader"
+      }, 
+      "c_stopId": {
+         "column": "C_IVC_STP_ID", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_sourceInvoiceStopNumber:TIME": {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceHeader"
+      }, 
+      "TransactionTimeStamp": {
+         "column": "D_ORD_PLC", 
+         "table": "OrderHeader"
+      }, 
+      "SourceTransactionNumberAlt": {
+         "column": "O_IVC", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_sourceInvoiceBatchNumber:CRP": {
+         "column": "O_CRP", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_orderType": {
+         "column": "C_ORD_TYP", 
+         "table": "OrderHeader"
+      }, 
+      "c_sourceInvoiceBatchNumber:ACCT": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_reshipOriginalOrder": {
+         "column": "O_ORD_XRF", 
+         "table": "OrderHeader"
+      }, 
+      "SourceCustomerNumber": {
+         "column": "O_CUS", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_orderOrigin": {
+         "column": "C_ORD_ORGN", 
+         "table": "OrderHeader"
+      }, 
+      "c_sourceInvoiceStopNumber:DATE": {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_orderStatus": {
+         "column": "C_ORD_STS", 
+         "table": "OrderHeader"
+      }, 
+      "c_sourceInvoiceStopNumber:ACCT": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceHeader"
+      }, 
+      "SourceTransactionNumber": {
+         "column": "O_IVC", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_autoReorderNumber": {
+         "column": "o_ord_rcur", 
+         "table": "OrderHeader"
+      }, 
+      "c_saleSign": {
+         "column": "F_RTE_SLE_SIGN", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_customerStopType": {
+         "column": "C_CUS_STP_TYP", 
+         "table": "InvoiceHeader"
+      }, 
+      "SourceOrganizationNumber": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_sourceInvoiceBatchNumber:TIME": {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_sourceInvoiceStopNumber:CRP": {
+         "column": "O_CRP", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_groupStopNumber": {
+         "column": "O_CUS_GRP", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_newCustomer": {
+         "column": "F_IVC_CUS_NEW", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_depotFreezer": {
+         "column": "O_LOC_SHP_FRM", 
+         "table": "OrderHeader"
+      }, 
+      "c_customerServiceType": {
+         "column": "C_CUS_SVC", 
+         "table": "OrderHeader"
+      }, 
+      "c_singleOrGroupStop": {
+         "column": "C_IVC_STP_TYP", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_callBackStop": {
+         "column": "C_CUS_CALL_BCK", 
+         "table": "InvoiceHeader"
+      }, 
+      "c_orderShipMethod": {
+         "column": "C_ORD_SHP_MTHD", 
+         "table": "OrderHeader"
+      }, 
+      "c_sourceInvoiceStopNumber:SEQ": {
+         "column": "O_CUS_STP_SEQ", 
+         "table": "InvoiceHeader"
+      }
+   }, 
+   "c_invoiceStop": {
+      "Sourcec_invoiceStopNumber:TIME": {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceStop"
+      }, 
+      "Sourcec_invoiceStopNumber:DATE": {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceStop"
+      }, 
+      "c_orderScheduledTWBegin": {
+         "column": "D_CUS_SVC_BGN_TME", 
+         "table": "InvoiceStop"
+      }, 
+      "Sourcec_invoiceStopNumber:ACCT": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceStop"
+      }, 
+      "c_scheduledStopAll": {
+         "column": "F_IVC_SVC_SCH_STP", 
+         "table": "InvoiceStop"
+      }, 
+      "Sourcec_invoiceStopNumber:SEQ": {
+         "column": "O_CUS_STP_SEQ", 
+         "table": "InvoiceStop"
+      }, 
+      "c_orderScheduledTWEnd": {
+         "column": "D_CUS_SVC_END_TME", 
+         "table": "InvoiceStop"
+      }, 
+      "Sourcec_invoiceStopNumber:CRP": {
+         "column": "O_CRP", 
+         "table": "InvoiceStop"
+      }
+   }, 
+   "customeraddressxref": {
+      "SourceCustomerNumber": {
+         "column": "O_CUS", 
+         "table": "Address"
+      }, 
+      "SourceAddressNumber:SAN": {
+         "column": "O_CUS_ADR", 
+         "table": "Address"
+      }, 
+      "SourceAddressNumber:SCN": {
+         "column": "O_CUS", 
+         "table": "Address"
+      }
+   }, 
+   "productcategory": {
+      "Name": {
+         "column": "N_PRD_GRP", 
+         "table": "ProductCategory"
+      }, 
+      "c_productGroupSubSeq": {
+         "column": "O_PRD_GRP_SUB_SEQ", 
+         "table": "ProductCategory"
+      }, 
+      "SourceCategoryNumber": {
+         "column": "O_PRD_GRP", 
+         "table": "ProductCategory"
+      }, 
+      "c_productGroupType": {
+         "column": "C_PRD_GRP_TYP", 
+         "table": "ProductCategory"
+      }, 
+      "SourceParentCategoryNumber": {
+         "column": "O_PRD_GRP_1", 
+         "table": "ProductCategory"
+      }, 
+      "c_productGroupSeq": {
+         "column": "O_PRD_GRP_SEQ", 
+         "table": "ProductCategory"
+      }
+   }, 
+   "productcategoryxref": {
+      "SourceProductCategoryNumber": {
+         "column": "O_PRD_GRP", 
+         "table": "ProductCategoryXref"
+      }, 
+      "SourceProductNumber": {
+         "column": "O_PRD", 
+         "table": "ProductCategoryXref"
+      }
+   }, 
+   "transactionitem": {
+      "c_orderNumber": {
+         "column": "O_ORD", 
+         "table": "InvoiceLineItem"
+      }, 
+      "SourceTransactionNumber": {
+         "column": "O_ORD", 
+         "table": "OrderDetail"
+      }, 
+      "SourceTransactionItemNumber:O_IVC": {
+         "column": "O_IVC", 
+         "table": "InvoiceLineItem"
+      }, 
+      "InvoiceDate": {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceLineItem"
+      }, 
+      "c_recordMode": {
+         "column": "RecordMode", 
+         "table": "OrderDetail"
+      }, 
+      "SourceProductNumber": {
+         "column": "O_PRD", 
+         "table": "InvoiceLineItem"
+      }, 
+      "ShipDate": {
+         "column": "D_ORD_PLC", 
+         "table": "OrderDetail"
+      }, 
+      "SourceTransactionItemNumber:O_ORD": {
+         "column": "O_ORD", 
+         "table": "OrderDetail"
+      }, 
+      "c_detailType": {
+         "column": "C_IVC_DTL_TYP", 
+         "table": "InvoiceLineItem"
+      }, 
+      "SourceTransactionItemNumber:O_ORD_LN": {
+         "column": "O_ORD_LN", 
+         "table": "OrderDetail"
+      }, 
+      "SourceOrganizationNumber": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceLineItem"
+      }, 
+      "c_saleType": {
+         "column": "C_IVC_SLE_TYP", 
+         "table": "InvoiceLineItem"
+      }, 
+      "BundleNumber": {
+         "column": "O_PRD_1", 
+         "table": "OrderDetail"
+      }, 
+      "c_orderLineSubType": {
+         "column": "C_ORD_LN_SUB_TYP", 
+         "table": "OrderDetail"
+      }, 
+      "SourceTransactionItemNumber:O_IVC_PRD_SEQ": {
+         "column": "O_IVC_PRD_SEQ", 
+         "table": "InvoiceLineItem"
+      }, 
+      "Quantity": {
+         "column": "Q_PRD_SLE", 
+         "table": "InvoiceLineItem"
+      }
+   }, 
+   "c_invoiceBatch": {
+      "c_routeDayBldType": {
+         "column": "C_RTE_DD_BLD_TYP", 
+         "table": "InvoiceBatch"
+      }, 
+      "Sourcec_invoiceBatchNumber:ACCT": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceBatch"
+      }, 
+      "Sourcec_invoiceBatchNumber:DATE": {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceBatch"
+      }, 
+      "c_regularRouteDayCount": {
+         "column": "Q_RTE_REG_DD", 
+         "table": "InvoiceBatch"
+      }, 
+      "c_routeDayRegBld": {
+         "column": "C_RTE_BLD_DD", 
+         "table": "InvoiceBatch"
+      }, 
+      "Sourcec_invoiceBatchNumber:CRP": {
+         "column": "O_CRP", 
+         "table": "InvoiceBatch"
+      }, 
+      "c_routeDay": {
+         "column": "O_GL_AU_DD", 
+         "table": "InvoiceBatch"
+      }, 
+      "Sourcec_invoiceBatchNumber:TIME": {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceBatch"
+      }, 
+      "c_batchOrigin": {
+         "column": "C_GL_AU_ORIG", 
+         "table": "InvoiceBatch"
+      }
+   }, 
+   "address": {
+      "SourceAddressNumber:SCN": {
+         "column": "O_CUS", 
+         "table": "Address"
+      }, 
+      "City": {
+         "column": "N_ARE_CTY", 
+         "table": "Address"
+      }, 
+      "Address2": {
+         "column": "T_CUS_ADR_2", 
+         "table": "Address"
+      }, 
+      "c_primaryDeliveryAddress": {
+         "column": "C_CUS_ADR_DLV_PRI", 
+         "table": "Address"
+      }, 
+      "Zip": {
+         "column": "C_ARE_PSTL", 
+         "table": "Address"
+      }, 
+      "c_addressServiceEndDate": {
+         "column": "D_CUS_SVC_END_TME", 
+         "table": "Address"
+      }, 
+      "c_addressAddedOrigin": {
+         "column": "C_CUS_ADR_ORGN", 
+         "table": "Address"
+      }, 
+      "c_addressDeliveryFailReason": {
+         "column": "C_CUS_MAIL_FAIL", 
+         "table": "Address"
+      }, 
+      "c_addressLattitude": {
+         "column": "O_ARE_ADR_LTT", 
+         "table": "Address"
+      }, 
+      "c_addressLongitude": {
+         "column": "O_ARE_ADR_LGT", 
+         "table": "Address"
+      }, 
+      "c_recordAddedDate": {
+         "column": "D_REC_ADD", 
+         "table": "Address"
+      }, 
+      "c_addressDPVCode": {
+         "column": "C_CUS_ADR_DPV", 
+         "table": "Address"
+      }, 
+      "c_primaryMailAddress": {
+         "column": "C_CUS_ADR_MAIL_PRI", 
+         "table": "Address"
+      }, 
+      "State": {
+         "column": "C_ARE_SCY", 
+         "table": "Address"
+      }, 
+      "c_addressServiceBeginDate": {
+         "column": "D_CUS_SVC_BGN_TME", 
+         "table": "Address"
+      }, 
+      "Type;{'D':'Delivery','M':'Mailing','P':'Physical','R':'Recipient'}": {
+         "column": "C_CUS_ADR_CAT", 
+         "table": "Address"
+      }, 
+      "Address1": {
+         "column": "T_CUS_ADR_1", 
+         "table": "Address"
+      }, 
+      "SourceAddressNumber:SAN": {
+         "column": "O_CUS_ADR", 
+         "table": "Address"
+      }, 
+      "CountryCode#'US'": {
+         "column": "O_CUS", 
+         "table": "Address"
+      }, 
+      "c_addressActive": {
+         "column": "F_CUS_ADR_ACT_IND", 
+         "table": "Address"
+      }, 
+      "c_customerAddressNumber": {
+         "column": "O_CUS_ADR", 
+         "table": "Address"
+      }
+   }, 
+   "organization": {
+      "City": {
+         "column": "N_LOC_PHY_CTY", 
+         "table": "Organization"
+      }, 
+      "Type#'Physical'": {
+         "column": "C_GL_ACCT_UNT_TYP", 
+         "table": "Organization"
+      }, 
+      "Zip": {
+         "column": "C_LOC_PHY_PSTL", 
+         "table": "Organization"
+      }, 
+      "SubType": {
+         "column": "C_GL_ACCT_UNT_TYP", 
+         "table": "Organization"
+      }, 
+      "c_timeZone": {
+         "column": "C_LOC_TME_ZON", 
+         "table": "Organization"
+      }, 
+      "Address2": {
+         "column": "T_LOC_PHY_ADR_2", 
+         "table": "Organization"
+      }, 
+      "c_transferAccountUnit": {
+         "column": "O_GL_AU_TRF_TO", 
+         "table": "Organization"
+      }, 
+      "State": {
+         "column": "C_LOC_PHY_SCY", 
+         "table": "Organization"
+      }, 
+      "c_organizationType": {
+         "column": "C_GL_ACCT_UNT_TYP", 
+         "table": "Organization"
+      }, 
+      "ExcludeAsClosestStore;{'N':'1','Y':'0','':'0'}": {
+         "column": "F_GL_AU_ACT", 
+         "table": "Organization"
+      }, 
+      "Country": {
+         "column": "N_LOC_PHY_CNY", 
+         "table": "Organization"
+      }, 
+      "ParentSourceOrganizationNumber": {
+         "column": "O_GL_ACCT_UNT_1", 
+         "table": "Organization"
+      }, 
+      "SourceOrganizationNumber": {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "Organization"
+      }, 
+      "Status;{'Y':'open','N':'closed'}": {
+         "column": "F_GL_AU_ACT", 
+         "table": "Organization"
+      }, 
+      "Address1": {
+         "column": "T_LOC_PHY_ADR_1", 
+         "table": "Organization"
+      }, 
+      "c_postToGL": {
+         "column": "F_GL_AU_POST", 
+         "table": "Organization"
+      }, 
+      "c_depotFreezerNumber": {
+         "column": "O_LOC", 
+         "table": "Organization"
+      }, 
+      "Name": {
+         "column": "N_GL_ACCT_UNT", 
+         "table": "Organization"
+      }
+   }
+}

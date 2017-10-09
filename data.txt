@@ -1,0 +1,2302 @@
+[
+   [
+      {
+         "column": "Q_RTE_REG_DD", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "c_regularRouteDayCount", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_AU_TRF_TO", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "c_transferAccountUnit", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_END_TME", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "c_orderScheduledTWEnd", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "ADTL_PRD_DESC", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_additionalProductDesc", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_ADR_DPV", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressDPVCode", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUST_PNT_PGM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_loyaltyProgramFlag", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "T_CUS_EMAIL_ADR", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "Email", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_PNT_PGM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_loyaltyProgramFlag", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_LOC", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "c_depotFreezerNumber", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_RTE", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "SourceOrganizationNumber", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "SourceProductNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT_1", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "ParentSourceOrganizationNumber", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceBatchNumber:TIME", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_IVC_CUS_NEW", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_newCustomer", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_EMAIL_UPD", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateEmailUpdated", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "T_LOC_PHY_ADR_2", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "Address2", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "T_LOC_PHY_ADR_1", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "Address1", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS_STP_SEQ", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceStopNumber:SEQ", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_END_TME", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressServiceEndDate", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_PRD_GRP_TYP", 
+         "table": "ProductCategory"
+      }, 
+      [
+         {
+            "column": "c_productGroupType", 
+            "table": "productcategory"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_FNR_CMPN_ASSC", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_fundraiserAssociation", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_TXT_DEL_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefTextDeliveryComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "Q_CUS_ORD_PHN", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_cummulativePhoneOrders", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "Q_ARE_SVC_FRQ", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerRouteServiceFrequency", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_STP_NXT_SVC", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_nextServiceDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_END_TME", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerServiceEndDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_MAIL", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "DoNotMail", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ORD", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "c_orderNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_IVC_CUS_TYP", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_customerType", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PROD_NAME", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "Name", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_IVC_PRD_SEQ", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "SourceTransactionItemNumber:O_IVC_PRD_SEQ", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_SVC", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_customerServiceType", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "SourceProductNumber", 
+            "table": "product"
+         }, 
+         {
+            "column": "Availability#'yes'", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ARE_ADR_LTT", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressLattitude", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ORD_LN", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "SourceTransactionItemNumber:O_ORD_LN", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "o_ord_rcur", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_autoReorderNumber", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "Q_CUS_LGN", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_webLoginCummulative", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceBatchNumber:ACCT", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD", 
+         "table": "ProductCategoryXref"
+      }, 
+      [
+         {
+            "column": "SourceProductNumber", 
+            "table": "productcategoryxref"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ORD_LN_SUB_TYP", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "c_orderLineSubType", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_GRP_SUB_SEQ", 
+         "table": "ProductCategory"
+      }, 
+      [
+         {
+            "column": "c_productGroupSubSeq", 
+            "table": "productcategory"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_BGN_TME", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressServiceBeginDate", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_ARE_CTY", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "City", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ORD_DES", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "SourceCustomerNumber", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS_STP_SEQ", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_sourceInvoiceStopNumber:SEQ", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_LOC_SHP_FRM", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_depotFreezer", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "SourceOrganizationNumber", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "c_sourceInvoiceBatchNumber:ACCT", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "c_sourceInvoiceStopNumber:ACCT", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_MAIL_FAIL", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressDeliveryFailReason", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_STP_TYP", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_customerStopType", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_EMAIL_ORGN", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerEmailOrigin", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_TYP", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerType", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ARE_SCY", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "State", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_IVC", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "SourceTransactionItemNumber:O_IVC", 
+            "table": "transactionitem"
+         }, 
+         {
+            "column": "SourceTransactionNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceBatchNumber:DATE", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_LOC_TME_ZON", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "c_timeZone", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ARE_PSTL", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "Zip", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_EMAIL_FAIL", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_emailDeliverability", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_ADR_DLV_PRI", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_primaryDeliveryAddress", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_PGM_STS", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerProgramStatus", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "Q_CUS_ORD_STE", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_cummulativeWebOrders", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_URL", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "ProductURL", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ORD_TYP", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_orderType", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_GL_AU_ORIG", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "c_batchOrigin", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ORD", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "SourceTransactionItemNumber:O_ORD", 
+            "table": "transactionitem"
+         }, 
+         {
+            "column": "SourceTransactionNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_EMAIL_SVC_NFY_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefEmailServiceNotificationComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_SPG", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_shoppingGuideNumber", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_PRD_SLE_VLD", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_validforsale", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_LOC_PHY_CNY", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "Country", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_STS", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerStatus", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceStopNumber:DATE", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_RTE_RUN_NXT", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateRouteNextRun", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_RTE_OPEN", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_routeOpenNotService", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ARE_ADR_LGT", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressLongitude", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_ADR_ACT_IND", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressActive", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_RTE_RUN_DLD", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateRouteDownloaded", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "SourceCustomerNumber", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ORD_SHP_MTHD", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_orderShipMethod", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS_ADR", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "SourceAddressNumber:SAN", 
+            "table": "address"
+         }, 
+         {
+            "column": "c_customerAddressNumber", 
+            "table": "address"
+         }, 
+         {
+            "column": "SourceAddressNumber:SAN", 
+            "table": "customeraddressxref"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_GL_AU_ACT", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "Status;{'Y':'open','N':'closed'}", 
+            "table": "organization"
+         }, 
+         {
+            "column": "ExcludeAsClosestStore;{'N':'1','Y':'0','':'0'}", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_IVC", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "SourceTransactionNumberAlt", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_EMAIL_SHT_NFY_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefEmailReminderProgComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_BGN_TME", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerServiceBeginDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_CUS_FST", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "FirstName", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_ADR_ORGN", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_addressAddedOrigin", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceStopNumber:ACCT", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "T_CUS_ADR_2", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "Address2", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "T_CUS_ADR_1", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "Address1", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SLE_FST", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_firstSaleDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ORD", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "SourceTransactionNumber", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_LEAD_ADD", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_leadAdded", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "SERVING_SIZE", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_servingSize", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_EMP", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_employeeNumber", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "Q_ORD_LN_RQD", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "Quantity", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_RTE_BLD_DD", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "c_routeDayRegBld", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_BGP", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_buyingGroupNumber", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_IVC_STP_ID", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_stopId", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "TransactionTimeStamp", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "c_sourceInvoiceBatchNumber:DATE", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "c_sourceInvoiceStopNumber:DATE", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_STP_TYP", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerStopType", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PROD_SHORT_DESC", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "Description", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_LOC_PHY_PSTL", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "Zip", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_BGN_TME", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "c_orderScheduledTWBegin", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "ShipDate", 
+            "table": "transactionitem"
+         }, 
+         {
+            "column": "InvoiceDate", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS_GRP", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_groupStopNumber", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_REC_ADD", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_recordAddedDate", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_EMAIL_DLD_DEL_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefEmailDeliveryProgComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "RATING", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_rating", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_EMAIL_INAC", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_emailAddressInactive", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG7", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_imageURLAlt6", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_RTE_SLE_SIGN", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_saleSign", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_PRD_NOT_ACT", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_dateinactive", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_GRP", 
+         "table": "ProductCategory"
+      }, 
+      [
+         {
+            "column": "SourceCategoryNumber", 
+            "table": "productcategory"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG3", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_imageURLAlt3", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG4", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "ImageURL", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "Q_PRD_SLE", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "Quantity", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG5", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_imageURLAlt4", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_EMAIL_ADD", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateEmailAdded", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG6", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_imageURLAlt5", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG1", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_imageURLAlt1", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ORD_STS", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_orderStatus", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRD_IMG2", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_imageURLAlt2", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_GRP", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_groupStop", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_AU_DD", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "c_routeDay", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_ORD_PLC", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "ShipDate", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_PRD_ITM", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_productDescriptionAlternate", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_INAC", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateCustomerInactivated", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CRP", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceStopNumber:CRP", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_EMAIL_PRM_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefEmailPromotionalComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_LOC_PHY_SCY", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "State", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_AUT_RORD_NXT_SVC", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_nextServedDateOfAutoReorder", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_AU_DD", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_nextServiceRouteDay", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PACKAGE_SIZE", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "Size", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "NEW_PROD", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_newProduct", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "RecordMode", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "c_recordMode", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_IVC", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "SourceTransactionNumber", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "SourceTransactionNumberAlt", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_TXT_PRM_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefTextPromoComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_ARE_SVC", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_serviceableArea", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_GRP_1", 
+         "table": "ProductCategory"
+      }, 
+      [
+         {
+            "column": "SourceParentCategoryNumber", 
+            "table": "productcategory"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_IVC_STP_TYP", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_singleOrGroupStop", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_CALL_BCK", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_callBackStop", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_ADR_CAT", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "Type;{'D':'Delivery','M':'Mailing','P':'Physical','R':'Recipient'}", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CRP", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_sourceInvoiceBatchNumber:CRP", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "c_sourceInvoiceStopNumber:CRP", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_ORD_ORGN", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_orderOrigin", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_SHT_NFY_TXT", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefTextReminderProgComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_IVC_SLE_TYP", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "c_saleType", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_ORD_PHN_LST", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateLastPhoneOrder", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_ORD_EST_ARV", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_originalEstimatedArrivalDate", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "NO_SERVINGS", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "c_noServings", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_ORD_XRF", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "c_reshipOriginalOrder", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_IVC_SVC_SCH_STP", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "c_scheduledStopAll", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_PRD_GRP", 
+         "table": "ProductCategory"
+      }, 
+      [
+         {
+            "column": "Name", 
+            "table": "productcategory"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceStop"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceStopNumber:TIME", 
+            "table": "c_invoiceStop"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_GRP_SEQ", 
+         "table": "ProductCategory"
+      }, 
+      [
+         {
+            "column": "c_productGroupSeq", 
+            "table": "productcategory"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SVC_END_TIME", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_customerServiceEndDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CRP", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "Sourcec_invoiceBatchNumber:CRP", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_IVC_BAT_TME", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_sourceInvoiceBatchNumber:TIME", 
+            "table": "transaction"
+         }, 
+         {
+            "column": "c_sourceInvoiceStopNumber:TIME", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PHN_NUM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "PrimaryPhone", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_CUS_ADR_MAIL_PRI", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "c_primaryMailAddress", 
+            "table": "address"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_AUT_RORD", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_autoOrderCustomer", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_RTE", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "SourceOrganizationNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_GL_ACCT_UNT_TYP", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "SubType", 
+            "table": "organization"
+         }, 
+         {
+            "column": "Type#'Physical'", 
+            "table": "organization"
+         }, 
+         {
+            "column": "c_organizationType", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT_1", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_divisionNextService", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_ORD_CUT_OFF_TME", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_orderCutOffDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_ORD_STE_LST", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_dateLastWebOrder", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT_5", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_routeNextService", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS", 
+         "table": "Address"
+      }, 
+      [
+         {
+            "column": "SourceAddressNumber:SCN", 
+            "table": "address"
+         }, 
+         {
+            "column": "CountryCode#'US'", 
+            "table": "address"
+         }, 
+         {
+            "column": "SourceAddressNumber:SCN", 
+            "table": "customeraddressxref"
+         }, 
+         {
+            "column": "SourceCustomerNumber", 
+            "table": "customeraddressxref"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT_4", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_depotNextService", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT_2", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_zoneNextService", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_BGP", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_buyingGroupName", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_GL_AU_POST", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "c_postToGL", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_1", 
+         "table": "OrderDetail"
+      }, 
+      [
+         {
+            "column": "BundleNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_STP_POR", 
+         "table": "InvoiceHeader"
+      }, 
+      [
+         {
+            "column": "c_customerStopPreorder", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD_GRP", 
+         "table": "ProductCategoryXref"
+      }, 
+      [
+         {
+            "column": "SourceProductCategoryNumber", 
+            "table": "productcategoryxref"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_PRD", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "SourceProductNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "PRICE", 
+         "table": "Product"
+      }, 
+      [
+         {
+            "column": "ListPrice", 
+            "table": "product"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_ORD_PLC", 
+         "table": "OrderHeader"
+      }, 
+      [
+         {
+            "column": "TransactionTimeStamp", 
+            "table": "transaction"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "SourceOrganizationNumber", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_GL_ACCT_UNT", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "SourceOrganizationNumber", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_GL_ACCT_UNT", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "Name", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "D_CUS_SLE_LST", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_lastSaleDate", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_LOC_PHY_CTY", 
+         "table": "Organization"
+      }, 
+      [
+         {
+            "column": "City", 
+            "table": "organization"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_RTE_DD_BLD_TYP", 
+         "table": "InvoiceBatch"
+      }, 
+      [
+         {
+            "column": "c_routeDayBldType", 
+            "table": "c_invoiceBatch"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "O_CUS", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "SourceCustomerNumber", 
+            "table": "customer"
+         }, 
+         {
+            "column": "c_customerNumber", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "C_IVC_DTL_TYP", 
+         "table": "InvoiceLineItem"
+      }, 
+      [
+         {
+            "column": "c_detailType", 
+            "table": "transactionitem"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "F_CUS_TXT_DLD_DEL_CMM", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "c_prefTextDeliveryProgComm", 
+            "table": "customer"
+         }
+      ]
+   ], 
+   [
+      {
+         "column": "N_CUS_LAST", 
+         "table": "Customer"
+      }, 
+      [
+         {
+            "column": "LastName", 
+            "table": "customer"
+         }
+      ]
+   ]
+]
