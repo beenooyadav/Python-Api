@@ -1,0 +1,92 @@
+{
+   "Customer": [
+      {
+         "column": "D_CUS_SVC_END_TIME", 
+         "table": "Customer"
+      }
+   ], 
+   "Organization": [
+      {
+         "column": "N_LOC_PHY_CTY", 
+         "table": "Organization"
+      }, 
+      {
+         "column": "N_LOC_PHY_CNY", 
+         "table": "Organization"
+      }, 
+      {
+         "column": "C_LOC_PHY_PSTL", 
+         "table": "Organization"
+      }, 
+      {
+         "column": "T_LOC_PHY_ADR_2", 
+         "table": "Organization"
+      }, 
+      {
+         "column": "O_GL_AU_TRF_TO", 
+         "table": "Organization"
+      }, 
+      {
+         "column": "C_GL_ACCT_UNT_TYP", 
+         "table": "Organization"
+      }, 
+      {
+         "column": "T_LOC_PHY_ADR_1", 
+         "table": "Organization"
+      }
+   ], 
+   "Product": [
+      {
+         "column": "N_PRD_ITM", 
+         "table": "Product"
+      }, 
+      {
+         "column": "PRICE", 
+         "table": "Product"
+      }, 
+      {
+         "column": "SERVING_SIZE", 
+         "table": "Product"
+      }, 
+      {
+         "column": "O_PRD", 
+         "table": "Product"
+      }, 
+      {
+         "column": "PROD_NAME", 
+         "table": "Product"
+      }, 
+      {
+         "column": "O_PRD_SPG", 
+         "table": "Product"
+      }, 
+      {
+         "column": "NO_SERVINGS", 
+         "table": "Product"
+      }, 
+      {
+         "column": "NEW_PROD", 
+         "table": "Product"
+      }
+   ], 
+   "ProductCategory": [
+      {
+         "column": "N_PRD_GRP", 
+         "table": "ProductCategory"
+      }, 
+      {
+         "column": "O_PRD_GRP", 
+         "table": "ProductCategory"
+      }, 
+      {
+         "column": "O_PRD_GRP_1", 
+         "table": "ProductCategory"
+      }
+   ], 
+   "ProductCategoryXref": [
+      {
+         "column": "O_PRD_GRP", 
+         "table": "ProductCategoryXref"
+      }
+   ]
+}

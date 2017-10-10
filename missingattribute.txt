@@ -1,0 +1,42 @@
+{
+   "Customer": [
+      "c_customerNumber"
+   ], 
+   "Product": [
+      "Availability#'yes'"
+   ], 
+   "Transaction": [
+      "c_sourceInvoiceBatchNumber:DATE", 
+      "c_stopId", 
+      "c_sourceInvoiceStopNumber:TIME", 
+      "c_sourceInvoiceBatchNumber:CRP", 
+      "c_sourceInvoiceBatchNumber:ACCT", 
+      "c_sourceInvoiceStopNumber:DATE", 
+      "c_sourceInvoiceStopNumber:ACCT", 
+      "c_sourceInvoiceStopNumber:CRP", 
+      "c_sourceInvoiceBatchNumber:TIME", 
+      "c_sourceInvoiceStopNumber:SEQ"
+   ], 
+   "CustomerAddressXref": [
+      "SourceAddressNumber:SAN", 
+      "SourceAddressNumber:SCN"
+   ], 
+   "TransactionItem": [
+      "SourceTransactionItemNumber:O_IVC", 
+      "SourceTransactionItemNumber:O_ORD", 
+      "SourceTransactionItemNumber:O_ORD_LN", 
+      "SourceTransactionItemNumber:O_IVC_PRD_SEQ"
+   ], 
+   "Address": [
+      "Type;{'D':'Delivery','M':'Mailing','P':'Physical','R':'Recipient'}", 
+      "SourceAddressNumber:SCN", 
+      "c_customerAddressNumber", 
+      "CountryCode#'US'", 
+      "SourceAddressNumber:SAN"
+   ], 
+   "Organization": [
+      "ExcludeAsClosestStore;{'N':'1','Y':'0','':'0'}", 
+      "Status;{'Y':'open','N':'closed'}", 
+      "Type#'Physical'"
+   ]
+}
